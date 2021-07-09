@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/log.dir/log.c.o  -o log 

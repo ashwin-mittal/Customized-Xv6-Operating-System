@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/sysproc.dir/sysproc.c.o  -o sysproc 

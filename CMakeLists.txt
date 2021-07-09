@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.17)
+project(2019101105)
+#set(CMAKE_C_STANDARD 17)
+#set(SOURCES *.c *.h)
+#add_executable(Codeforces ${SOURCE_FILES} ${SOURCES})
+file(GLOB_RECURSE my_exe_list RELATIVE ${CMAKE_SOURCE_DIR} "*.c")
+foreach (file_path ${my_exe_list})
+    string(REPLACE ".c" "" new_name ${file_path})
+    get_filename_component(filename ${new_name} NAME)
+    # replace all special symbols with _, because sometimes cmake will give error
+    string(REGEX REPLACE "[^a-zA-Z0-9]" "_" filename ${filename})
+    # to check if correct strings are matched
+    # message(STATUS "${filename} ${filepath} ${new_name}")
+    add_executable(${filename} ${file_path})
+endforeach ()

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/ulib.dir/ulib.c.o  -o ulib 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/bootmain.dir/bootmain.c.o  -o bootmain 

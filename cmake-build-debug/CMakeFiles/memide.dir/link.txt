@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/memide.dir/memide.c.o  -o memide 

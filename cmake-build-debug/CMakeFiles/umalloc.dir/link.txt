@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/umalloc.dir/umalloc.c.o  -o umalloc 

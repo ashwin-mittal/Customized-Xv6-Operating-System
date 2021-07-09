@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/picirq.dir/picirq.c.o  -o picirq 

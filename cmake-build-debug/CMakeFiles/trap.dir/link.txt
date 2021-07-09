@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/trap.dir/trap.c.o  -o trap 

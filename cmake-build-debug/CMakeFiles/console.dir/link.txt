@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/console.dir/console.c.o  -o console 

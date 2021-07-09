@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/bio.dir/bio.c.o  -o bio 

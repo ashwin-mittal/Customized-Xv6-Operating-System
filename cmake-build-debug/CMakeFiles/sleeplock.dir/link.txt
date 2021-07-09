@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/sleeplock.dir/sleeplock.c.o  -o sleeplock 
